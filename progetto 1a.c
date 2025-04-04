@@ -82,3 +82,12 @@ int main() {
     }
     return 0;
 }
+
+/* Syntax Error(s)
+__tester__.c: In function ‘main’:
+__tester__.c:138:5: error: ‘main’ is normally a non-static function [-Werror=main]
+  138 | int main() {
+      |     ^~~~
+At top level:
+__tester__.c:138:5: error: ‘main’ defined but not used [-Werror=unused-function]
+cc1: all warnings being treated as errors */
